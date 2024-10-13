@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'app_general.apps.AppGeneralConfig',
     'app_cloths.apps.AppClothsConfig',
     'app_season.apps.AppSeasonConfig',
+    'app_food.apps.AppFoodConfig',
+    'app_travel.apps.AppTravelConfig'
 ]
 
 MIDDLEWARE = [
