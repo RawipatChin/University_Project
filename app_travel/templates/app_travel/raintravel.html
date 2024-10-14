@@ -8,10 +8,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Rainy season | No Matter Weather</title>
+    <title>Rainy | No Matter Weather</title>
     <style>
-      body{
+      body {
         font-family: "Itim", cursive;
+      }
+      .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        margin-top: 100px;
+      }
+      .card {
+        width: 325px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
+        margin: 20px;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+      .card-content {
+        padding: 16px;
+      }
+      .card-content h3 {
+        margin-bottom: 8px; 
+      }
+      .card-content p {
+        line-height: 1.3;
       }
     </style>
 </head>
@@ -26,10 +53,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/cloths">Weater</a>
+                <a class="nav-link active" aria-current="page" href="/cloths">Weather</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
@@ -39,55 +66,65 @@
         </div>
       </nav>
 </header>
-<div class="my-3 mx-3">
-    <center><img src="https://cdn-icons-png.flaticon.com/128/3314/3314005.png" ></center>
-    <br>
-    <h2>ฟ้าครึ้ม มืดมน มืดดำ เหงาหงอย</h2>
-    <h4>ฟ้าฝนไม่เป็นใจแบบนี้ จะแต่งตัวยังไงดีนะ?</h4>
-    <hr>
-    <h4><b>Tips :</b></h4>
-       <h5>- ผ้าที่เบาสบาย + แห้งไว ทำให้เคลื่อนไหวคล่องตัว</h5>
-       <h5>- สวมรองเท้าแนวเปิดเท้าแต่ทะมัดทะแมง</h5>
-       <h5>- รองเท้าบูทที่ดี ช่วยกันน้ำได้ และต้องกันหนักด้วยนะ</h5>
-       <h5>- ไอเท็มหน้าฝน ไม่ว่าจะเป็น ร่ม / หมวก / ชุดกันฝน ฯลฯ </h5>
-    <hr>
-    <h4><b>1.เสื้อผ้าโทนเข้ม</b></h4>
-    <h5>ขอแนะนำให้เริ่มที่เสื้อผ้าโทนสีเข้ม โดยเฉพาะสีดำ สีกรมท่า สีน้ำตาล เพื่อที่ว่าเวลาเปียกฝนแล้วจะได้ไม่ดูวาบหวิวหรือว่าผ้าแนบเนื้อจนเกินไป ด้วยเหตุผลเดียวกันนี้ควรเลี่ยงเสื้อผ้าโทนสีเทาในการแต่งตัวหน้าฝน เพราะเวลาที่เสื้อผ้าสีเทาโดนน้ำแล้วจะเป็นคราบๆ หรือรอยเปียกให้เห็นชัดเจน อาจทำให้ลุคของเราดูกระดำกระด่างไม่น่ามองก็เป็นได้</h5>
-    <img src="https://i.pinimg.com/564x/86/3d/6a/863d6a9e823668a2fcd848a44b6e8204.jpg" style="border-radius:20px;" width="20%" >
-    <img src="https://i.pinimg.com/736x/ed/22/39/ed2239da06b1d4ccf2a71ff507b784b8.jpg" style="border-radius:20px;" width="20%" >
-    <br>
-    <br>
-    <h4><b>2.เสื้อคลุมตัวนอก</b></h4>
-    <h5>แม้จะไม่แนะนำให้ใส่เสื้อผ้าหน้าฝนที่มีสีอ่อนหรือสีสว่าง อย่างเช่น สีขาว สีครีม สีเหลือง หรือสีส้ม แต่ก็ใช่ว่าจะใส่ไม่ได้เลย เพราะถ้ามีเสื้อนอกติดไปด้วยแล้ว คุณก็จะสามารถมิกซ์แอนด์แมทช์การแต่งตัวได้หลากหลายมากขึ้น เสริมความเก๋ให้ตัวเองอีกระดับ ซึ่งก็ขอแนะนำให้เสื้อนอกเป็นผ้าหนาๆ เช่นแจ็กเกตหนัง เผื่อในตอนที่ฝนตกจะได้กันเสื้อด้านในไม่ให้เปียกมากจนเกินไป รวมถึงยังให้ความอบอุ่นจากลมฝนอีกด้วย</h5>
-    <img src="https://cs.lnwfile.com/_/cs/_raw/8u/bj/m9.jpg" style="border-radius:20px;" width="20%" >
-    <img src="https://i.pinimg.com/564x/60/a6/6c/60a66cfb3cd32005b5a80c86c83bd075.jpg" style="border-radius:20px;" width="15%" >
-    <br>
-    <br>
-    <h4><b>3.กางเกงขาเต่อ/ขาลอย</b></h4>
-    <h5>กางเกงทรงแบบนี้มีลักษณะที่สวมใส่สบายและระบายความร้อนหรือความชื้นได้ดี แถมถ้ามีน้ำท่วมขึ้นมาจริงๆ ก็ไม่ต้องหวั่นกลัวว่ากางเกงจะเปียก ลุยน้ำได้แบบชิลล์ๆ นอกจากนี้จะยิ่งสะดวกมากขึ้นหากเลือกใส่กางเกงที่มีน้ำหนักเบา เนื้อผ้าแห้งไว เพราะบางครั้งเมื่อเปียกฝนแล้วอาจจะทำให้รู้สึกหนักไม่สบายตัว</h5>
-    <img src="https://i.pinimg.com/564x/60/d6/fb/60d6fb82487bf2475b6b2d893c9f65a0.jpg" style="border-radius:20px;" width="13%" >
-    <img src="https://us-fbcloud.net/wb/data/1102/1102176-img.tabps2.0p.jpg" style="border-radius:20px;" width="30%" >
-    <br>
-    <br>
-    <h4><b>4.รองเท้ากันน้ำ</b></h4>
-    <h5>หากจะใส่รองเท้าแฟชันสวยๆ ก็กลัวน้ำกับโคลนกระเด็นมาใส่จนเป็นคราบดำไม่น่ามองเต็มไปหมด จึงควรเลือกรองเท้าที่สามารถกันน้ำได้อย่างพวกรองเท้าบูตยาง แต่หลายคนอาจจะรู้สึกว่ารองเท้าบูตนั้นดูไม่เหมาะกับสายแฟชัน ฉะนั้นอาจจะเลือกเป็นรองเท้าแตะที่ทำจากยางและสามารถกันน้ำได้</h5> 
-    <img src="https://i.pinimg.com/564x/b5/0d/86/b50d86cfb5e1981b4c6f99bd870d3341.jpg" style="border-radius:20px;" width="15%" >
-    <img src="https://i.pinimg.com/564x/52/19/00/521900521112e9118e42e543b83ac9e0.jpg" style="border-radius:20px;" width="12%" >
-    <br>
-    <br>
-    <h4><b>5.กระเป๋ากันน้ำได้ก็สำคัญ</b></h4>
-    <h5> อีกหนึ่งไอเทมที่ทุกคนควรมีไว้ติดตัวในช่วงหน้าฝนนี้ก็คือกระเป๋ากันน้ำนั้นเอง เพื่อป้องกันไม่ให้สิ่งของสำคัญของเราต้องเปียกน้ำ ซึ่งอาจจะเลือกกระเป๋าที่ทำจากผ้าไนลอน หนังแท้ หรือพลาสติก เป็นต้น ที่สำคัญควรเลือกกระเป๋าใบที่เป็นซิปที่เปิด-ปิดได้มิดชิด กันไม่ให้น้ำรั่วไหลเข้าไปด้านในนั่นเอง</h5>
-    <img src="https://i.pinimg.com/564x/5d/bf/8f/5dbf8f57d1d9254f2c1313820360d04e.jpg" style="border-radius:20px;" width="13%" >
-</div>
-    <hr>
 
-<center><footer style="background-color: rgba(33,37,41,255); padding: 10px; text-align: center;">
-      <h5 style="color:White">ช่องทางติดต่อ admin</h5>
-      <p>
-          <a href="https://www.facebook.com/profile.php?id=100012146138076" style="color: white;">Facebook</a> |
-          <a href="https://www.instagram.com/rrrra_wipat_/" style="color: white;">Instragram</a>
-      <p>
-      <p style="color:White">Copyright 2024 No Matter Weather. All right reserved.</p>
-</footer>
+<div class="card-container">
+    <div class="card">
+        <img src="https://www.ktc.co.th/pub/media/Travel-Story/Thailand/travel-rainy-season/arawan.webp">
+        <div class="card-content">
+            <h3>น้ำตกเอราวัณ</h3>
+            <p>น้ำตกเอาวัณมีทั้งหมด 7 ชั้น ระยะทางตั้งแต่ชั้นล่างจนถึงชั้นบนสุดทั้งหมด 1.5 กิโลเมตร เป็นน้ำตกที่มีน้ำตลอดปี นักท่องเที่ยวนิยมไปเล่นน้ำ นั่งปิกนิกและไปชมความสวยงามของธรรมชาติและสีฟ้าสีเขียวมรกตของน้ำตก ชั้นแรกๆของน้ำตกจะมีปลาค่อนข้างเยอะ ปลาชนิดนี้จะเป็น ปลาพลวง ซึ่งเป็นปลาในตระกุลปลาตะเพียน หากในวันหยุดสุดสัปดาห์ใครกำลังมองหาที่ที่เที่ยวหน้าฝน ไปง่ายๆใกล้กรุงเทพฯ และได้สัมผัสบรรรยากาศของธรรมชาตอย่างเต็มที่ก็แนะนำที่นี่เลย</p>
+            <p>ที่อยู่ : ตำบล ท่ากระดาน อำเภอศรีสวัสดิ์ กาญจนบุรี 71250</p>
+            <a href="https://goo.gl/maps/Cx4EtJv3GQ7Q4MgQ9">Map</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.ktc.co.th/pub/media/Travel-Story/Thailand/travel-rainy-season/Doi-Hua-Mod-1.webp">
+        <div class="card-content">
+            <h3>อุ้มผาง</h3>
+            <p>อุ้งผาง อำเภอที่อุดมสมบูรณ์ไปด้วยธรรมชาติและมีแหล่งท่องเที่ยวที่เหมาะจะเที่ยวในช่วงหน้าฝนหลายที่ทั้ง น้ำตกทีลอซู ดอยหัวหมด น้ำตกทีลอจ่อ น้ำตกปิตุ๊โกร ดอยมะม่วงสามหมื่น และอีกมากมาย เรียกได้ว่า ได้เที่ยวชมธรรมชาติอย่างจุใจแน่นอนหากมาเที่ยวที่อำเภอนี้</p>
+            <p>ที่อยู่ : อำเภออุ้งผาง จังหวัดตาก</p>
+            <a href="https://goo.gl/maps/qRYJ5RDoRtw1p94f8">Map</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.ktc.co.th/pub/media/Travel-Story/Thailand/travel-rainy-season/pai-1.webp">
+        <div class="card-content">
+            <h3>ปาย</h3>
+            <p>สถานที่ยอดฮิตตลอดกาลไม่ว่าจะฤดูกาลไหนคือ ปาย สถานที่ท่องเที่ยวของปายก็มีหลากหลายจุดทั้ง จุดชมวิวทะเลหมอกหยุนไหล น้ำพุร้อนไทรงาม ที่ถือเป็น unseen ของปายเลยก็ว่าได้ หรือสายบุญก็สามารถไปไหว้พระทำบุญที่ วัดน้ำฮู หรือจะไปถ่ายรูปเช็คอินที่ สะพานประวัติศาสตร์ปาย ชมแกะที่ Romance Farm จะท่องเที่ยวสไตล์ไหน ก็เลือกได้ตามสไตล์ หรือที่พักในปายก็มีให้เลือกหลากหลายเช่นกัน</p>
+            <p>ที่อยู่ : ตำบลแม่สูน อำเภอฝาง เชียงใหม่ 50320</p>
+            <a href="https://goo.gl/maps/WW3Bs8igeaXK3r4S6">Map</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.ktc.co.th/pub/media/Travel-Story/Thailand/travel-rainy-season/hub-pha-tad.webp">
+        <div class="card-content">
+            <h3>หุบป่าตาด</h3>
+            <p>อีกหนึ่งสถานที่ยอดฮิตของจังหวัดอุทัยธานี ที่เมื่อได้ไปเที่ยวแล้วเหมือนหลุดเข้าไปในยุคจูราสิค หุบป่าตาดให้ความรู้สึกมีไดโนเสาร์อยู่ในนั้น ข้างในเป็นถ้ำเป็นหิน อากาศเย็นสบาย สามารถมาเที่ยวได้ตลอดทั้งปี แต่ในช่วงหน้าฝนต้นไม้ข้างในจะอุดมสมบูรณ์กว่าฤดูอื่นๆ นักท่องเที่ยวคนใดต้องการข้อมูลเกี่ยวกับถ้ำก็สามารถจ้างมัคคุเทศก์ด้านหน้าได้ ส่วนมากมัคคุเทศก์จะเป็นเด็กนักเรียน ที่มาหารายได้ในวันหยุด</p>
+            <p>ที่อยู่ : ตำบล ทุ่งนางาม อำเภอลานสัก อุทัยธานี 61160</p>
+            <a href="https://goo.gl/maps/3paicyJJZF3F13LG7">Map</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.ktc.co.th/pub/media/Travel-Story/Thailand/travel-rainy-season/phu-lunkga.webp">
+        <div class="card-content">
+            <h3>ภูลังกา</h3>
+            <p>อีกหนึ่งที่เที่ยวหน้าฝนที่ควรต้องไปสักครั้งคือ ภูลังกา ไปพักผ่อนท่ามกลางธรรมชาติที่โอบล้อม ที่เที่ยวที่ภูลังกาก็มีหลายจุดให้ได้เช็คอินทั้งคาเฟ่ชิคๆอย่าง มิสเตอร์แฮนด์ซัม เมจิค เมาน์เทน คาเฟ่ และที่พักก็มีให้เลือกหลากหลายสไตล์ตามความชอบ ที่พักแต่ละที่ก็จะมีวิวให้ได้ชมอย่างสวยสดงดงาม เหมาะกับการไปนอนฟังเสียงฝนพร้อมตื่นมาชมวิวยามเช้า</p>
+            <p>ที่อยู่ : ตำบลโพธิ์หมากแข้ง อำเภอบึงโขงหลง บึงกาฬ 38220</p>
+            <a href="https://goo.gl/maps/ohS87drZN1AaSovs5">Map</a>
+        </div>
+    </div>
+</div>
+
+<center>
+    <footer style="background-color: rgba(33,37,41,255); padding: 10px; text-align: center;">
+        <h5 style="color:White">ช่องทางติดต่อ admin</h5>
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=100012146138076" style="color: white;">Facebook</a> |
+            <a href="https://www.instagram.com/rrrra_wipat_/" style="color: white;">Instagram</a>
+        <p>
+        <p style="color:White">Copyright 2024 No Matter Weather. All right reserved.</p>
+    </footer>
+</center>
+
 </body>
 </html>

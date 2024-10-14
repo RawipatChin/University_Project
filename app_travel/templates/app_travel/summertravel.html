@@ -10,8 +10,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Summer | No Matter Weather</title>
     <style>
-      body{
+      body {
         font-family: "Itim", cursive;
+      }
+      .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        margin-top: 100px;
+      }
+      .card {
+        width: 325px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
+        margin: 20px;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+      .card-content {
+        padding: 16px;
+      }
+      .card-content h3 {
+        margin-bottom: 8px; 
+      }
+      .card-content p {
+        line-height: 1.3;
       }
     </style>
 </head>
@@ -19,17 +46,17 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">Clothguide</a>
+          <a class="navbar-brand" href="/">No Matter Weather</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/cloths">Weater</a>
+                <a class="nav-link active" aria-current="page" href="/cloths">Weather</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
@@ -39,56 +66,56 @@
         </div>
       </nav>
 </header>
-<div class="my-3 mx-3">
-    <center><img src="https://cdn-icons-png.flaticon.com/128/66/66275.png" ></center>
-    <br>
-    <h2>ฟ้าแจ่มใส แดดออก แดดแรง ไม่เกรงใจใคร</h2>
-    <h4>อากาศร้อนๆแบบนี้ จะแต่งตัวยังไงดีนะ?</h4>
-    <hr>
-    <h4><b>Tips :</b></h4>
-       <h5>- เลือกเนื้อผ้าที่ไม่หนามาก สามารถระบายอากาศ ระบายเหงื่อได้ดี</h5>
-       <h5>- เลี่ยงเสื้อผ้าโทนสีดำ เน้นใส่สีสดใส เพราะสีดำเป็นสีที่ดูดแสงทำให้อุณหภูมิสูงขึ้น</h5>
-       <h5>- สวมเสื้อคลุม หรือใส่หมวกสักใบเวลาออกแดด เพื่อป้องกันรังสียูวีและรักษาสุขภาพผิวไม่ให้รู้สึกแสบร้อน</h5>
-       <h5>- ทาครีมกันแดดช่วยป้องกันยูวี เลือกครีมที่ไม่เหนียวเหนอะหนะ กันน้ำด้วยจะดีมาก</h5>
-    <hr>
-    
-    <h4><b>1.เสื้อเชิ้ตแขนยาว กางเกงขายาว</b></h4>
-    <h5>เสื้อเชิ้ตแขนยาว ไอเท็มสุดคลาสสิคที่ให้ลุคสุภาพเรียบร้อย แต่เก๋มีสไตล์ แม้จะเป็นหน้าร้อนก็สามารถหยิบมาสวมใส่ได้อย่างลงตัวกับกางเกงขายาว ลุคนี้เหมาะทั้งผู้ชายและผู้หญิง ยิ่งถ้าได้รองเท้าผ้าใบสักคู่มาแมทช์รับรองว่าดูดีไม่เบาเลย</h5>
-    <img src="https://obs.line-scdn.net/0hxQgPMdqMJ35aKQvUyw1YKWN_JBFpRTR9Ph92fQZHeUonSzUgNElqEHkgK0xxGGAgM09gGnlseEd2ETIqYU0/w644" style="border-radius:20px;" width="16%" >
-    <img src="https://i.pinimg.com/564x/69/dd/87/69dd876f86c74d89fdaddd4e62bfa0c4.jpg" style="border-radius:20px;" width="20%" >
-    <br>
-    <br>
-    <h4><b>2.เสื้อยืด เสื้อคลุม กางเกงขาสั้น</b></h4>
-    <h5>เบสิคลุคมากๆ สำหรับหน้าร้อนกับเสื้อยืดกางเกงขาสั้น เพราะเป็นชุดที่ทุกคนจะต้องมีติดตู้เสื้อผ้าไว้อยู่แล้ว แต่ขอแนะนำอีกนิดว่า ให้เลือกเสื้อคลุมสักตัว หรือหมวกสักใบมาใส่คู่กัน จะทำให้ดูเท่ไปอีกแบบ แถมยังได้ปกป้องผิวจากแสงแดดในระดับนึงด้วย ทั้งลุคนี้ก็สามารถแต่งตามกันได้ทั้งชายและหญิงนะ</h5>
-    <img src="https://image.makewebeasy.net/makeweb/m_1920x0/5F36Cac0E/BP001/DD20ED3F_E2B8_48C0_8744_940051A578F7.jpg?v=202012190947" style="border-radius:20px;" width="20%" >
-    <img src="https://s.isanook.com/wo/0/ui/33/167301/f28.jpg" style="border-radius:20px;" width="16%" >
-    <br>
-    <br>
-    <h4><b>3.เสื้อยืด กางเกงยีนส์</b></h4>
-    <h5>เสื้อยืดกับกางเกงยีนส์ขายาว แทบจะเป็นเอฟวีเดย์ลุคของทุกคนไปแล้ว ซึ่งลุคพื้นฐานแบบนี้แน่นอนว่าแต่งตามกันได้ทั้งผู้ชายและผู้หญิง เพราะการนำเสื้อยืดกับยีนส์ตัวโปรดมาใส่คู่กัน นอกจากจะสะดวกสบายแล้วยังให้ความรู้สึกทะมัดทะแมงอีกด้วย บวกกับถ้าลองเลือกรองเท้าชิคๆ สักคู่มาแมทช์ล่ะก็รับรองว่าโดดเด่นได้ในลุคง่ายๆ แบบนี้เลย</h5>
-    <img src="https://www.ladyissue.com/wp-content/uploads/2020/08/mjws1.jpg" style="border-radius:20px;" width="20%" >
-    <img src="https://i.pinimg.com/564x/90/0f/cb/900fcba3517a5182440d9dd727a00e17.jpg" style="border-radius:20px;" width="11%" >
-    <br>
-    <br>
-    <h4><b>4.เสื้อแขนสั้น กางเกง 5 ส่วน</b></h4>
-    <h5>ต้องขอบอกไว้ก่อนว่าเซ็ตนี้เอาใจผู้หญิงโดยเฉพาะ สำหรับเสื้อแขนสั้น ไม่ว่าจะเป็นเสื้อยืด หรือเสื้อแขนกุด กับกางเกง 5 ส่วนที่ให้ลุควินเทจ แต่หาซื้อมาสวมใส่ได้ง่าย แถมยังระบายอากาศได้ดี ทั้งสามารถมิกซ์แอนด์แมทช์กับเครื่องประดับอื่นๆ ได้อย่างลงตัว</h5> 
-        <img src="https://img.salehere.co.th/p/1200x0/2021/10/18/1hol35fo4vki.jpg" style="border-radius:20px;" width="17.5%" >
-        <img src="https://files.vogue.co.th/uploads/Mens_Pants_cover.jpg" style="border-radius:20px;" width="30%" >
-    <br>
-    <br>
-    <h4><b>5.เสื้อกล้าม เสื้อคลุม กางเกงขาสั้น</b></h4>
-    <h5>สายชิลล์ไม่ควรพลาดกับลุคนี้ เสื้อกล้าม กางเกงขาสั้น บวกเสื้อคลุม ที่เหมาะกับหน้าร้อนในบ้านเราที่สุดแล้ว แต่ขอนิดนึงสำหรับเสื้อกล้ามหรือเสื้อสายเดี่ยวของสาวๆ ว่าไม่โป๊มากนะแค่กำลังดูน่ารักก็พอเน้อ และถ้าใครอยากจะหยิบหมวกคู่ใจมาแมทช์กับชุดนี้ก็บอกได้เลยว่าปังแน่นอน</h5>
-    <img src="https://images.shopspotter.in.th/wp-content/uploads/2019/04/07234607/c07.jpg" style="border-radius:20px;" width="30%" >
-</div>
-    <hr>
 
-<center><footer style="background-color: rgba(33,37,41,255); padding: 10px; text-align: center;">
-      <h5 style="color:White">ช่องทางติดต่อ admin</h5>
-      <p>
-          <a href="https://www.facebook.com/profile.php?id=100012146138076" style="color: white;">Facebook</a> |
-          <a href="https://www.instagram.com/rrrra_wipat_/" style="color: white;">Instragram</a>
-      <p>
-      <p style="color:White">Copyright 2024 No Matter Weather. All right reserved.</p>
-</footer>
+<div class="card-container">
+    <div class="card">
+        <img src="https://s359.kapook.com//pagebuilder/72953028-f99a-4edd-ac24-c4e110a1eac2.jpg">
+        <div class="card-content">
+            <h3>น้ำตกห้วยแม่ขมิ้น จังหวัดกาญจนบุรี</h3>
+            <p>หนึ่งในน้ำตกที่ติดอันดับความสวยงามและเป็นที่รู้จักของนักท่องเที่ยวจำนวนมาก ตั้งอยู่บริเวณอุทยานแห่งชาติเขื่อนศรีนครินทร์ ห่างจากอำเภอเมือง 108 กิโลเมตร น้ำตกแห่งนี้แบ่งออกเป็น 7 ชั้น มีชื่อเรียกต่าง ๆ กันไปแต่ละชั้น ทั่วบริเวณร่มรื่นด้วยพรรณไม้ป่านานาชนิด อีกทั้งแต่ละชั้นก็มีความสูงและความสวยงามต่างกันไป ทางอุทยานได้ทำเส้นทางเดินสำหรับขึ้นไปชมน้ำตกแต่ละชั้น และยังเป็นเส้นทางเดินศึกษาธรรมชาติ สามารถเที่ยวชมได้ตลอดทั้งปี</p>
+            <p>ที่อยู่ : อุทยานแห่งชาติเขื่อนศรีนครินทร์ ตำบลท่ากระดาน อำเภอศรีสวัสดิ์ จังหวัดกาญจนบุรี</p>
+            <a href="https://www.google.com/maps/place/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%A1%E0%B8%B4%E0%B9%89%E0%B8%99/@14.6380825,98.984041,17z/data=!3m1!4b1!4m6!3m5!1s0x30e410466a850601:0x6644f43f931e0534!8m2!3d14.6380825!4d98.9866159!16s%2Fg%2F11b6dvq69f?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">Map</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://f.tpkcdn.com/review-source/a2fd476c-7915-8ffd-3288-567567482513.jpg">
+        <div class="card-content">
+            <h3>เกาะแสมสาร สัตหีบ ชลบุรี</h3>
+            <p>เกาะแสมสาร สัตหีบ อีกหนึ่งในเกาะสวยชื่อดัง ที่ตั้งอยู่ใกล้ๆ กรุงเทพฯ ทางใต้ของสัตหีบ ซึ่งอยู่ภายใต้การดูแลของกองทัพเรือ ให้เราได้ไปดำน้ำชมปลาการ์ตูนกันได้โดยที่ไม่ต้องไปไกลๆ อีกทั้งบนเกาะมีกิจกรรมให้ทำมากมาย ทั้ง พายเรือคายัค นั่งเรือท้องกระจก รวมถึงการนั่งชิลผ้าใบ และเล่นน้ำใสๆ ถ่ายรูปสวยๆ อีกด้วย</p>
+            <p>ที่อยู่ : ตำบลแสมสาร อำเภอสัตหีบ จังหวัดชลบุรี</p>
+            <a href="https://www.google.com/maps/place/%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%81%E0%B8%AA%E0%B8%A1%E0%B8%AA%E0%B8%B2%E0%B8%A3/@12.5691272,100.9323539,14z/data=!3m1!4b1!4m6!3m5!1s0x310260235a7c9b15:0xa98af5b3f4659b9e!8m2!3d12.5770042!4d100.949619!16s%2Fm%2F0zb__jq?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">Map</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://www.uncledeng.com/wp-content/uploads/2021/04/%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%8A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A0%E0%B8%B2.jpg">
+        <div class="card-content">
+            <h3>เขื่อนรัชชประภา จังหวัดสุราษฎร์ธานี</h3>
+            <p>เป็นส่วนหนึ่งของอุทยานแห่งชาติเขาสก ขึ้นชื่อในเรื่องของวิวทิวทัศน์อันงดงามของทะเลสาบกว้างใหญ่ ภูเขาหินปูน และผืนป่าอันอุดมสมบูรณ์ สมดังฉายา “กุ้ยหลินเมืองไทย” กิจกรรมห้ามพลาดคือ นอนแพชมทิวทัศน์ ดูนกเงือก เที่ยวถ้ำน้ำทะลุ ถ้ำประกายเพชรและถ้ำปะการัง และล่องเรือชมวิถีชีวิตสัตว์ป่าที่หาชมยากในเขตรักษาพันธุ์สัตว์ป่าคลองแสง</p>
+            <p>ที่อยู่ : ตำบลมะขามเตี้ย อำเภอเมือง จังหวัดสุราษฎร์ธานี 84000</p>
+            <a href="https://www.google.com/maps?sca_esv=778fd8ccaca240ed&output=search&q=%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%8A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A0%E0%B8%B2+%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5+%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87&source=lnms&fbs=AEQNm0CkraFHbSSYNYrpAw8CoqsQS-nOyrKXLg65Wp9HuSyD0FionsVzNs2UZwuNskXpWXousFfbBelT9lHY_Up839Vme-WjwNRqwFmA4q3dCjpjeWdMdjAS4S6qKLDWJr_sMAGcAuD1WhiLM5GPAV1J8Yh4N3pJAs0eQBowUdXi76I5PlzbiYK_nHIoQGYQozLaKttlATchcGFxIHNi5xhqzrxkEnLkEdxKvXz0ZwPsVG2SwCBiCNqi2wt0YwI8z80fA_2HD8o9x7yl3rqRROOc4b3IcH2tg_Jz169eZb8Wy8wG1SdoD1Q&entry=mc&ved=1t:200715&ictx=111">Map</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://img.kapook.com/u/2016/kantana/12travel/tt7.jpg">
+        <div class="card-content">
+            <h3>หนองทะเล จังหวัดกระบี่</h3>
+            <p>สถานที่ท่องเที่ยวในจังหวัดกระบี่ มีลักษณะเป็นบึงน้ำจืดขนาดใหญ่ มีฉากหลังเป็นภูเขาหินปูนที่มีรูปร่างเป็นเอกลักษณ์ เหมาะสำหรับนักท่องเที่ยวที่ชื่นชอบความสงบและอยากที่จะใกล้ชิดกับธรรมชาติ ในช่วงเวลายามเช้านักท่องเที่ยวจะได้สัมผัสกับบรรยากาศแสนอบอุ่น และเมื่ออาทิตย์เริ่มทอแสง ความสว่างของพระอาทิตย์จะทำให้คุณเห็นระลอกคลื่นของสายน้ำที่ไหลไปมา ตลอดจนได้เฝ้าดูทุกสรรพชีวิตที่ดำรงอยู่ในสายน้ำแห่งนี้ ซึ่งช่วยเพิ่มชีวิตชีวาให้กับการมาเที่ยวที่หนองทะเลแห่งนี้ได้อย่างมากทีเดียว</p>
+            <p>ที่อยู่ : ต.หนองทะเล อ.เมือง จ.กระบี่ 81180</p>
+            <a href="https://www.google.com/maps/place/%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B5%E0%B9%88+%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B5%E0%B9%88/@8.0837038,98.7119445,13z/data=!3m1!4b1!4m6!3m5!1s0x3051bed5f88519a5:0x380daebf74bcc4e5!8m2!3d8.0937936!4d98.7811645!16s%2Fg%2F11kb_p7_kl?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">Map</a>
+        </div>
+    </div>
+</div>
+
+<center>
+    <footer style="background-color: rgba(33,37,41,255); padding: 10px; text-align: center;">
+        <h5 style="color:White">ช่องทางติดต่อ admin</h5>
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=100012146138076" style="color: white;">Facebook</a> |
+            <a href="https://www.instagram.com/rrrra_wipat_/" style="color: white;">Instagram</a>
+        <p>
+        <p style="color:White">Copyright 2024 No Matter Weather. All right reserved.</p>
+    </footer>
+</center>
+
 </body>
 </html>
